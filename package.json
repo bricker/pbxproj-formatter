@@ -1,0 +1,31 @@
+{
+  "name": "pbxproj-formatter",
+  "version": "1.0.0",
+  "description": "Clean up your dirty pbxproj files",
+  "main": "clean-pbxproj.js",
+  "bin": {
+    "format-pbxproj": "./bin/format-pbxproj.js"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/bricker/pbxproj-formatter.git"
+  },
+  "author": "Bryan Ricker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bricker/pbxproj-formatter/issues"
+  },
+  "homepage": "https://github.com/bricker/pbxproj-formatter#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  },
+  "dependencies": {
+    "n-readlines": "^1.0.1",
+    "yargs": "^17.1.1"
+  }
+}
